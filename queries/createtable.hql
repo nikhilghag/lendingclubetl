@@ -1,5 +1,6 @@
+CREATE SCHEMA `lendingclub`;
 
-CREATE EXTERNAL TABLE `loan_details`(
+CREATE EXTERNAL TABLE `lendingclub`.``loan_details`(
   `member_id` string, 
   `loan_amnt` string, 
   `funded_amnt` string, 
